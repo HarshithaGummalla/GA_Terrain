@@ -1,0 +1,52 @@
+package com.maven.terrain;
+
+14:48
+
+Request control
+
+
+
+
+
+
+
+
+Leave
+Sarfaraj Ahmed
+Profile picture of Nagasripooja Sirasanagandla.
+Nagasripooja Sirasanagandla
+Profile picture of Sarfaraj Ahmed.
+Sarfaraj Ahmed
+Profile picture of Swathi Elango.
+Swathi Elango
+Profile picture of Shanmuga Priya V.
+On hold
+Profile picture of Sangeetha Prakasam.
+Sangeetha Prakasam
+Profile picture of Harshitha Gummalla.
+Meeting chat
+
+Message List
+Meeting started
+11:30?Meeting started
+Last read
+Profile picture of Nagasripooja Sirasanagandla.public class Example { public static void... by Nagasripooja Sirasanagandla
+Nagasripooja Sirasanagandla
+12:30
+public class Example {
+public static void main(String[] args) throws InterruptedException
+{
+//System.setProperty("webdriver.chrome.driver","C:\\Users\\nagasrips\\Documents\\Selenium\\selenium_training\\drivers\\chromedriver.exe");
+
+WebDriverManager.chromedriver().setup();
+WebDriver driver = new ChromeDriver();
+driver.get("http://www.google.com");
+Thread.sleep(3000);
+WebElement search = driver.findElement(By.name("q"));
+search.sendKeys("gmail");
+//driver.quit();
+}
+}
+
+
+

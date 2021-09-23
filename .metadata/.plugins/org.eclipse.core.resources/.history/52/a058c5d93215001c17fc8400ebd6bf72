@@ -1,0 +1,19 @@
+package com.maven.terrain;
+
+public class Example {
+public static void main(String[] args) throws InterruptedException
+{
+//System.setProperty("webdriver.chrome.driver","C:/Users/harshithag/eclipse-workspace_SeleniumTraining/SeleniumProject/drivers/chromedrivers.exe");
+
+WebDriverManager.chromedriver().setup();
+WebDriver driver = new ChromeDriver();
+driver.get("http://www.google.com");
+Thread.sleep(3000);
+WebElement search = driver.findElement(By.name("q"));
+search.sendKeys("gmail");
+//driver.quit();
+}
+}
+
+
+

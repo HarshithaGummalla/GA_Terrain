@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-20T16:23:18 IST" name="SampleSuite" finished-at="2021-09-20T16:23:33 IST" duration-ms="14754">
+    <groups>
+    </groups>
+    <test started-at="2021-09-20T16:23:18 IST" name="SampleTest" finished-at="2021-09-20T16:23:33 IST" duration-ms="14754">
+      <class name="com.maven.terrain.Example">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.maven.terrain.Example@7e7be63f]" started-at="2021-09-20T16:23:18 IST" name="setUp" finished-at="2021-09-20T16:23:18 IST" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestMethod()[pri:0, instance:com.maven.terrain.Example@7e7be63f]" started-at="2021-09-20T16:23:18 IST" name="TestMethod" finished-at="2021-09-20T16:23:33 IST" duration-ms="14699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod -->
+      </class> <!-- com.maven.terrain.Example -->
+    </test> <!-- SampleTest -->
+  </suite> <!-- SampleSuite -->
+</testng-results>
